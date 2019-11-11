@@ -1,0 +1,113 @@
+h1 a {
+    color: #FCA205;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-variant: small-caps;
+    font-size:30px;
+    font-style: italic;
+    font-weight:bold;
+	
+}
+
+body {
+    padding-left: 15px;
+}
+
+.button {
+    box-shadow: inset 0px 1px 0px 0px #FFA07A;
+    background: linear-gradient(to bottom, #F0E68C 5%, #FFA07A 100%);
+    background-color: #FFA07A;
+	border-radius:6px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#566963;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-variant: small-caps;
+    font-size:17px;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px black;
+    margin-top: 30px;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #F0E68C 5%, #FFA07A 100%);
+	background-color:black;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.page-header {
+    background-color: #DAA520;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 45pt;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.date {
+    color: #828282;
+    font-style: italic;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 30px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+        position: relative;
+    float: inherit;
+    background-color: #FFFAF0;
+    border-radius: 0;
+}
+
+.post-header {
+    background-color: #F0E68C;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.post-container {
+    padding: 10px;
+  }
+
+.post h1 a, .post h1 a:visited {
+    color: #000000;
+}
+
+.h-divider{
+    margin-top:5px;
+    margin-bottom:5px;
+    height:1px;
+    width:100%;
+    border-top:1px solid gray;
+}
