@@ -1,12 +1,12 @@
 ### Django Project
 
-To create super user:
-python3 manage.py createsuperuser
+- To create super user:
+    python3 manage.py createsuperuser
 
-Run web server:
-python3 manage.py runserver
+- Run web server: 
+    python3 manage.py runserver
 
-To login with super user:
-http://127.0.0.1:8000/admin/
+- To login with super user:
+    http://127.0.0.1:8000/admin/
 
-Enter: http://127.0.0.1:8000
+- Url blog: http://127.0.0.1:8000
